@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+#headline {
+    color: rgba(175, 47, 47, 0.15);
+    font: 100px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 10px;
+}
+
+#todos {
+    list-style-type: none;
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+}
+
+#xx-item-left {
+    margin-right: 50px;
+}
+
+.footer-button-wrapper {
+    margin: 0px 10px;
+}
+
+.footer-button-selected {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.footer-button-unselected:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: gray;
+}
+
+
+.footer-button-once:hover {
+    text-decoration: underline;
+}

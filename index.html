@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>todoMVC</title>
+        <link href="index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1 id="headline">todos</h1>
+            <input type="checkbox" id="toggle-all"/>
+            <input id="todo-input" type="text" placeholder="What need to be done?"/>
+        </header>
+        <section>
+            <ul id="todos">
+            </ul>
+        </section>
+        <footer id="footer">
+            <span id="xx-item-left"><span id="item-count"></span> item<span id="plural"></span> left</span>
+            <span class="footer-button-wrapper"><a class="footer-button-selected" id="all" style="cursor:pointer;">All</a></span>
+            <span class="footer-button-wrapper"></div><a class="footer-button-unselected" id="active" style="cursor:pointer;">Active</a></span>
+            <span class="footer-button-wrapper"></div><a class="footer-button-unselected" id="completed" style="cursor:pointer;">Completed</a></span>
+            <span class="footer-button-wrapper"></div><a class="footer-button-once" id="clear-completed" style="cursor:pointer;">Clear Completed</a></span>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
